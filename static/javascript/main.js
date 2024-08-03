@@ -31,7 +31,7 @@ $(document).ready(function () {
   });
   //animated typed init ------------------------
   new Typed('#typed-text', {
-    strings: ["Facilitate", "Ethics", "Association", "Transparency", "Simplicity"],
+    strings: ["We Are DRY DEVELOPERS", "D : Do Not !", "R : Repeat !", " Y :Your Self.", " ;-) "],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 2000,

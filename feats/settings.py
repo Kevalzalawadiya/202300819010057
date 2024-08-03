@@ -135,7 +135,7 @@ STATICFILES_DIRS = [
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.zoho.in'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'support@feats.in'
-EMAIL_HOST_PASSWORD = 'Feats@2021'
+EMAIL_HOST_USER = 'kevalpatelletv1@gmail.com'
+EMAIL_HOST_PASSWORD = 'Your app paasword'
 EMAIL_USE_TLS = True
 
