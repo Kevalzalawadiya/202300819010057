@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="zxx">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feats - Beyond the expectation </title>
+    <!-- FAVICON ICON  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'image/asset/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'image/asset/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'image/asset/favicon-16x16.png' %}">
+    <link rel="shortcut icon" href="{% static 'image/asset/favicon.ico' %}" type="image/x-icon">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Rubik&display=swap"
+        rel="stylesheet">
+    <!-- ICONTFONT -->
+    <link href="{% static 'css/vendor/icofont.min.css' %}" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="{% static 'css/vendor/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- MAGNIFIC POPUP -->
+    <link href="{% static 'css/vendor/magnific.css' %}" rel="stylesheet">
+    <!-- HEADLINE ANIMATED -->
+    <link href="{% static 'css/vendor/headlineanimated.css' %}" rel="stylesheet">
+    <!-- OWL CARAOUSEL CSS -->
+    <link href="{% static 'css/vendor/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/vendor/owl.theme.default.min.css' %}" rel="stylesheet">
+    <!-- MAIN CSS -->
+    <link href="{% static 'css/themes.css' %}" rel="stylesheet">
+    <!-- RESPONSIVE CSS -->
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    <!-- MAIN WRAP -->
+    <div class="main-wrap">
+        <!-- SMALL MENU -->
+        <div class="overlay-fade"></div>
+        <div class="wrap-mobilemenu">
+            <button id="closesmenu" class="button-menu">
+                <i class="icofont-close-squared-alt"></i>
+            </button>
+        <nav class="menu-mobile">
+            <ul class="navigation-list">
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about-wrap">Services</a></li>
+                <li><a class="nav-link" href="#portfolio-wrap">Our Work</a></li>
+                <li><a class="nav-link" href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+        <!-- HEADER WRAP -->
+        <header id="header-wrap">
+            <div class="main-headerwrap container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo-wrap">
+                            <img src="{% static 'image/asset/logo.png' %}" alt="logo" />
+                        </div>
+                    </div>
+                    <div class="col-lg-9 navigation-big">
+                        <nav class="navigation-wrap">
+                            <ul class="navigation-list">
+                                <li><a class="nav-link" href="#">Home</a></li>
+                                <li><a class="nav-link" href="#about-wrap">Services</a></li>
+                                <li><a class="nav-link" href="#portfolio-wrap">Our Courses</a></li>
+                                <li><a class="nav-link" href="#contact-section">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <button id="openmenu" class="button-menu">
+                        <i class="icofont-navigation-menu"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER WRAP -->
+        <!-- HERO WRAP -->
+        <section id="wrap-hero" class="jarallax" style="background: url({% static 'image/hero/11.jpg' %}); background-size: cover; background-position: center;
+        background-repeat: no-repeat;">
+            <div class="d-flex align-items-center justify-content-center inner-herocontent">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-detailherowrap">
+                                <div class="detail-herowrap">
+                                    <h1> F E A T S </h1>
+                                </div>
+                                
+                                <h3>
+                                    <span class="wrap-typed">
+                                        <span id="typed-text"></span>
+                                    </span>
+                                </h3>
+                                <div class="mini-detail">
+                                    <div class="row">
+                                    
+                                        <div class="offset-lg-1 col-lg-10 offset-lg-1">
+                                            <p>
+                                                Feats is well-defined ecosystem for digital transformation of your ideas into reality.
+                                            </p>
+                                            <p>
+                                                Build efficient and reliable software products using  scientific principles, methods and procedures. 
+                                            </p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="sosmed-home head-sosmed">
+                                    <ul class="sosmed-list">
+                                        <li><a href="#"><i class="icofont-facebook"></i> </a></li>
+                                        <li><a href="#"><i class="icofont-linkedin"></i> </a></li>
+                                        <li><a href="#"><i class="icofont-youtube"></i> </a></li>
+                                        <li><a href="#"><i class="icofont-twitter"></i> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HERO WRAP -->
+
+        <!-- ABOUT ME WRAP -->
+        <section id="about-wrap" class="padtopbottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="about-detailwrap offset-lg-12   ">
+                            <p class="title-detail">Our Services</p>
+                            
+                            <div class="mini-detail">
+                                <p>
+                                    Facilitate digital transformation to entrepreneurs and enterprises using emerging technologies for Startups and Enterprises
+                                </p>
+                                <p>
+                                    Our mission is to help enterprises accelerate adoption of new technologies, untangle complex issues that always emerge during digital evolution, and orchestrate ongoing innovation.
+                                    Whether it is a consumer-oriented app or a transformative enterprise-class solution,
+                                    the company leads the process from ideation and concept to delivery, and provides ongoing support.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <!-- WHAT IDO -->
+                        <div class="mini-detailwhatido ">
+                            <div id="wrapido" class="owl-carousel owl-theme">
+                                <!-- WHAT IDO ITEM -->
+                                <div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-vector-path icon-w"></i>
+                                            <h3>Support and Maintenance</h3>
+                                            <p>
+                                                As a service provider, we assist you to scale up your product so that
+                                                we offer service module based on your requirement.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- WHAT IDO ITEM -->
+                                <div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-camera icon-w"></i>
+                                            <h3> Mentorship </h3>
+                                            <p>
+                                                We offer consultation for startups to grow rapidly
+                                                and for internship program for students and freshers to learn emerging technologies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- WHAT IDO ITEM -->
+                                <div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-brush icon-w"></i>
+                                            <h3> Software Design</h3>
+                                            <p> 
+                                                Our core expertise in web development. We provide qualitative solution for UI/UX development, 
+                                                mobile app development and many more.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- WHAT IDO ITEM -->
+                                <div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-code-alt icon-w"></i>
+                                            <h3>Enterprise Solution</h3>
+                                            <p>
+                                                Our domain expert or specialist associate in the software design and architecture 
+                                                to provide solution of through digital products or services.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END WHAT IDO -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PORTFOLIo WRAP -->
+        <section id="portfolio-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+              
+                        <div class="wrap-titleporto">
+                            <p class="title-detail">Our Courses</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="mini-detail">
+                            <p>
+                                Feats is commited to building reliable solutions to accelerate your business.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4 mt-4">
+                                <!-- PORTFOLIO FILTER -->
+                                <ul class="filter-list">
+                                    <li data-filter="*" class="aktip"><span>Development Program</span></li>
+                                    <li data-filter=".poto"><span>Python Development</span></li>
+                                    <li data-filter=".web"><span>Full Stack Development</span></li>
+                                    <li data-filter=".brand"><span>Mobile Development</span></li>
+                                    <li data-filter=".support"><span>AWS Cloud Technologies</span></li>
+                                </ul>
+                            </div>
+                            <div class="porto-content col-lg-8 mt-4">
+                                <!-- PORTFOLIO FILTER -->
+                                
+                                    <!--  PORFOLIO ITEM -->
+                                    <div class="porto-item poto">
+                                        <a class="image-popup gallery-link" href="{% static 'image/portfolio/4.jpg' %}">
+                                            <div class="wrap-portoiner">
+                                                <img src="{% static 'image/portfolio/python.jpeg' %}" alt="porto" />
+                                                <div class="info-porto">
+                                                    <div class="description-porto">
+                                                        <h3>Python / Django Development</h3>
+                                                        <span>Web Development through Python</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- END PORTFOLIO ITEM -->
+                                    <!--  PORFOLIO ITEM -->
+                                    <div class="porto-item web">
+                                        <a class="image-popup gallery-link" href="{% static 'image/portfolio/3.jpg' %}">
+                                            <div class="wrap-portoiner">
+                                                <img src="{% static 'image/portfolio/full_stack.jpeg' %}" alt="porto" />
+                                                <div class="info-porto">
+                                                    <div class="description-porto">
+                                                        <h3>Full Stack Development</h3>
+                                                        <span>Full Stack Development Program for Python and React</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- END PORTFOLIO ITEM -->
+                                    <!--  PORFOLIO ITEM -->
+                                    <div class="porto-item support">
+                                        <a class="image-popup gallery-link" href="{% static 'image/portfolio/6.jpg' %}">
+                                            <div class="wrap-portoiner">
+                                                <img src="{% static 'image/portfolio/cloud.jpeg' %}" alt="porto" />
+                                                <div class="info-porto">
+                                                    <div class="description-porto">
+                                                        <h3>AWS Cloud Technologies</h3>
+                                                        <span>Python for AWS Cloud developers </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- END PORTFOLIO ITEM -->
+                                    <!--  PORFOLIO ITEM -->
+                                    <div class="porto-item brand">
+                                        <a class="image-popup gallery-link" href="{% static 'image/portfolio/5.jpg' %}">
+                                            <div class="wrap-portoiner">
+                                                <img src="{% static 'image/portfolio/mobile.jpeg' %}" alt="porto" />
+                                                <div class="info-porto">
+                                                    <div class="description-porto">
+                                                        <h3>Mobile Development</h3>
+                                                        <span>Mobile Development using flutter</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- END PORTFOLIO ITEM -->
+                                
+                            </div>
+                        </div>
+                        <div>  
+                            <button type="button" class="button-link dark-b llinks"> <a href="/registrations" target="_blank"> Enroll now </a> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RESUME -->
+        <section id="wrap-resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="wrap-titleporto ">
+                            <p class="title-detail">Domain Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="mini-detail">
+                            <p>
+                                Domain knowledge is significant and valuable for all organizations 
+                                because the targeted skill specialist learned from software developers to translate that knowledge into computer programs to ensure 
+                                the product make extremely valuable for end-users.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col">
+                            <h3>Enterprise solution</h3>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Web Design and Architecture</p>
+                                <div class="skill-bar" data-valuenow="92">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp"> Development </p>
+                                <div class="skill-bar" data-valuenow="80">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Maintenance and Services</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col dark-one">
+                            <h3>Entertainment
+                            </h3>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Web Design and Architecture</p>
+                                <div class="skill-bar" data-valuenow="80">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Development</p>
+                                <div class="skill-bar" data-valuenow="60">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Maintenance and Services</p>
+                                <div class="skill-bar" data-valuenow="40">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col">
+                            <h3>Logistic</h3>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Web Design and Architecture</p>
+                                <div class="skill-bar" data-valuenow="70">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Development</p>
+                                <div class="skill-bar" data-valuenow="30">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Maintenance and Services</p>
+                                <div class="skill-bar" data-valuenow="100">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col">
+                            <h3>E-commerce</h3>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Web Design and Architecture</p>
+                                <div class="skill-bar" data-valuenow="92">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Development</p>
+                                <div class="skill-bar" data-valuenow="80">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Maintenance and Services</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col dark-one">
+                            <h3>Education
+                            </h3>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Web Design and Architecture</p>
+                                <div class="skill-bar" data-valuenow="80">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Development</p>
+                                <div class="skill-bar" data-valuenow="60">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Maintenance and Services</p>
+                                <div class="skill-bar" data-valuenow="40">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col">
+                            <h3>Communication</h3>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Web Design and Architecture</p>
+                                <div class="skill-bar" data-valuenow="70">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Development</p>
+                                <div class="skill-bar" data-valuenow="30">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Maintenance and Services</p>
+                                <div class="skill-bar" data-valuenow="100">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-partnercontainer">
+                <div id="partner-sliderwrap" class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="partner-wrap owl-carousel" id="craxpartner-slide">
+                                <!-- ITEM PARTNER -->
+                                <div class="item-partner">
+                                    <img src="{% static 'image/partner/python.svg' %}" alt="partner" height="100px" width="100px"/>
+                                </div>
+                                <!-- ITEM PARTNER -->
+                                <div class="item-partner">
+                                    <img src="{% static 'image/partner/flutter.svg' %}" alt="partner" height="100px" width="100px" />
+                                </div>
+                                <!-- ITEM PARTNER -->
+                                <div class="item-partner">
+                                    <img src="{% static 'image/partner/react.svg' %}" alt="partner" height="100px" width="100px" />
+                                </div>
+                                <!-- ITEM PARTNER -->
+                                <div class="item-partner">
+                                    <img src="{% static 'image/partner/nodejs.svg' %}" alt="partner" height="100px" width="100px" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT SECTION -->
+        <section id="contact-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <div class="title-top">
+                                <h3>Contact.</h3>
+                            </div>
+                            <div class="mini-detail">
+                                <p>
+                                    We love to hear from you.
+                                </p>
+                            </div>
+                            <form action="/inquire/" method="post" accept-charset="utf-8" id="form-contact">
+                                {% csrf_token %}
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="First Name" name="first_name" required/>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Last Name" name="last_name" required />
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <input type="text" placeholder="Email Address" name="email" required />
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea class="textarea" placeholder="Your Message" name="comment" required ></textarea>
+                                        <button type="submit" class="button-link dark-b llinks">Send now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ml-auto">
+                        <div class="detail-contact">
+                            <div class="title-top">
+                                <h3>Contact Detail.</h3>
+                            </div>
+                            <div class="mini-detail">
+                                <p>
+                                    Leading software company in India and expanding our services and
+                                    corporate branches all over the globe.
+                                </p>
+                            </div>
+                            <div class="detail-info">
+                                <i class="icofont-map-pins the-icon"></i>
+                                <div class="inner-detail">
+                                    <p> 1127 Dev Atlier, Prahlad Nagar, Ahmedabad - 380015,
+                                        Gujarat, India.</p>
+                                </div>
+                            </div>
+                            <div class="detail-info">
+                                <i class="icofont-ui-dial-phone the-icon"></i>
+                                <div class="inner-detail">
+                                    <p>Hotline<br />
+                                        +91 97270 68990</p>
+                                </div>
+                            </div>
+                            <div class="detail-info">
+                                <i class="icofont-ui-email the-icon"></i>
+                                <div class="inner-detail">
+                                    <p>
+                                        admin@featsinnovations.in
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sosmed-home foot-sosmed">
+                                <ul class="sosmed-list">
+                                    <li><a href="#"><i class="icofont-facebook"></i> </a></li>
+                                    <li><a href="#"><i class="icofont-linkedin"></i> </a></li>
+                                    <li><a href="#"><i class="icofont-youtube"></i> </a></li>
+                                    <li><a href="#"><i class="icofont-twitter"></i> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer id="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="wrap-title-foot">
+                            <h3><b>feats 2021</b> Software Development</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- SCROLLTOP -->
+        <a href="#" class="scroll-top">
+            <i class="icofont-arrow-up dropicon">
+            </i>
+        </a>
+    </div>
+    <!-- END MAIN WRAP -->
+    <!-- JAVASCRIPT JQUERY -->
+    <script src="{% static 'javascript/vendor/jquery.js' %}"></script>
+    <!-- BOOTSTRAP -->
+    <script src="{% static 'javascript/vendor/bootstrap.min.js' %}"></script>
+    <!-- MAGNIFIC POPUP -->
+    <script src="{% static 'javascript/vendor/magnific.js' %}"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="{% static 'javascript/vendor/owl.carousel.min.js' %}"></script>
+    <!-- ISOTOPE -->
+    <script src="{% static 'javascript/vendor/isotope.js' %}"></script>
+    <!-- HEADLINE ANIMATED -->
+    <script src="{% static 'javascript/vendor/typed.js' %}"></script>
+    <!-- JARALLAX -->
+    <script src="{% static 'javascript/vendor/jarallax.js' %}"></script>
+    <!-- MAIN JAVASCRIPT -->
+    <script src="{% static 'javascript/main.js' %}"></script>
+</body>
+
+</html>
